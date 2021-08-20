@@ -28,7 +28,7 @@ body {
   background-color: #19a2ae;
   background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
   background-repeat: no-repeat, no-repeat;
-  background-position: bottom 45vh right 45vw, top 45vh left 45vw;
+  background-position: bottom 50vh right 50vw, top 50vh left 50vw;
 }
 
 .card {
