@@ -1,0 +1,154 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1rem;
+  background-color: #19a2ae;
+  background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom 45vh right 45vw, top 45vh left 45vw;
+}
+
+.card {
+  overflow: hidden;
+  width: 100%;
+  max-width: 375px;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+  -webkit-box-shadow: 0px 2rem 10px 5px rgba(45, 50, 72, 0.8);
+          box-shadow: 0px 2rem 10px 5px rgba(45, 50, 72, 0.8);
+}
+
+.card-bio {
+  position: relative;
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+}
+
+.card-bio-bgimage {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  z-index: 1;
+}
+
+.card-bio-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+.card-bio-info .pfp {
+  max-width: 100%;
+  margin-top: 5.375rem;
+  border-radius: 100%;
+  border: 8px white solid;
+}
+
+.card-bio-info .nameage {
+  margin-top: 1.75rem;
+}
+
+.card-bio-info .age {
+  margin-left: 0.5rem;
+  color: #6a6f81;
+}
+
+.card-bio-info .origin {
+  margin-block: 1rem;
+  color: #6a6f81;
+  font-size: 0.75rem;
+}
+
+.card-stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  padding: 1.75rem;
+}
+
+.card-stats div {
+  -webkit-box-flex: 30%;
+      -ms-flex: 30%;
+          flex: 30%;
+}
+
+.card-stats p {
+  text-align: center;
+}
+
+.card-stats span {
+  letter-spacing: 0.1rem;
+  font-size: 0.6875rem;
+  color: #969696;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+/*# sourceMappingURL=styles.css.map */
